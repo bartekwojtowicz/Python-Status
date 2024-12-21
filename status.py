@@ -1,3 +1,7 @@
+# Autor: !bartix
+# Discord: dc.gold-plugins.pl
+
+
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import simpledialog
@@ -12,7 +16,7 @@ import sys
 ORDER_FILE = 'klienci.json'
 
 # Webhook Discorda
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1320079408656027720/w8bfdwVSOTzvR4trl8abc1xsdN1lbgwnnYVPc_RbpUBNyU29GsRbdvt7swVtccNycb2j"
+DISCORD_WEBHOOK_URL = "" #<------------ Tutaj wklei webhoki Kanału Discorda!
 
 # Ładowanie zamówień
 def load_orders():
